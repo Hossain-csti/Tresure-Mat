@@ -1,0 +1,13 @@
+
+/* exclusive-band */
+.exclusive {
+    background: radial-gradient(#fff, #ffd6d6);
+}
+
+.exclusive-img img {
+    transition: transform 0.5s;
+}
+
+.exclusive-img img:hover {
+    transform: translateY(-7px);
+}

@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+li,
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+/* navber section */
+.nev-title {
+    font-size: 12px;
+    background-color: #000000;
+    padding: 7px;
+}
+
+.nav-item li,
+a {
+    color: #000000;
+    text-decoration: none;
+    list-style: none;
+    margin: 0 1.5vw;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif !important;
+
+}
+
+.nav__link {
+    position: relative;
+    transition: all 0.4s;
+}
+
+.nav__link:hover,
+.nav__link:focus {
+    color: #000000;
+}
+
+.nav__link::after {
+    content: '';
+    height: 2px;
+    width: 100%;
+    background: #198754;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    opacity: 0;
+    transition: all 0.2s;
+}
+
+.nav__link:hover::after,
+.nav__link:focus::after {
+    opacity: 1;
+}
+
+.nav-icon i {
+    color: #000000;
+}
+
+.nav-icon i:hover {
+    color: #198754;
+    transition: all 0.5s;
+}
+/* navber section */
+
+/* trending-image */
+.trending-image img{
+    transition: transform 0.5s;
+}
+
+.trending-image img:hover{
+    transform: translateY(-7px);
+}
+/* trending-image */
+
+
+/* blog-eid-offer */
+.cover-image img{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Aarong__eid__adha{
+    margin-top: -50px;
+    left: 0;
+    right: 0;
+}
+
+.Aarong__eid__adha span{
+    width: 67%;
+}
+
+.eid-img-01 p{
+    width: 81%;
+    text-align: initial;
+    margin-left: 110px;
+    font-size: 12px;
+}
+/* blog-eid-offer */
+
+
+
+/* herstory */
+.back-color{
+    background: #871D4E;
+}
+/* herstory */
+
+/* login-and-sign-out */
+/* parallax */
+.parallax {
+    background-image: url("./images/cover/login-background-image.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.overlay{
+    padding: 60px;
+    min-height: 80vh;
+}
+/* parallax */
+
+.card{
+    background: rgb(238,238,238);
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.icon-link button{
+    margin: 0.5vw;
+}
+
+.icon-link button{
+    border-color: rgb(183, 183, 183) !important;
+    background-color: rgb(238,238,238);
+    color: black !important;
+}
+
+.icon-link button:hover{
+    border-color: rgb(183, 183, 183) !important;
+    background-color: rgb(255, 255, 255) !important;
+    color: black !important;
+}
+
+/* form-control */
+/* login-and-sign-out */
+
+
+/* cart-page */
+.cart{
+    margin-top: -19rem;
+}
+/* cover image */
+
+/* table store */
+.value-box input {
+    height: 30px;
+    width: 50px;
+    padding: 10px 5px 10px 15px;
+}
+
+.table {
+    font-size: 13px;
+}
+
+/* table store */
+
+/* apply coupon */
+.form-control {
+    width: 60%;
+}
+
+.card-border {
+    padding: 20px 20px 15px;
+}
+
+.apply-coupon {
+    font-size: 14px;
+    font-style: normal;
+}
+
+/* apply coupon */
+
+/* model */
+.purc-icon i{
+    font-size: 30px;
+    border: 2px solid #198754;
+    background-color: #198754;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: auto;
+    right: 0;
+    left: 0;
+
+
+}
+.model-title h5{
+    font-size: 14px;
+}
+
+.model-title h6{
+    font-size: 12px;
+}

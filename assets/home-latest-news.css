@@ -1,0 +1,12 @@
+/* LATEST NEWS & OFFERS */
+.latest-news img {
+    filter: grayscale(100%);
+    transition: transform 0.5s;
+}
+
+.latest-news img:hover {
+    filter: grayscale(0);
+    transform: translateY(-7px);
+}
+
+/* LATEST NEWS & OFFERS */

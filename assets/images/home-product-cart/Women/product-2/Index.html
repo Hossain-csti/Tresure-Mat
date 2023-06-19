@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Shirt Mart</title>
+</head>
+
+<body>
+    <section class="product" id="product">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6 text-center">
+                    <div class="product mt-5">
+                        <div class="img-container">
+                            <img id="imageBox" src="./img/product-1.png" class="border xzoom" xoriginal="./img/product-1.png">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 text-center">
+                            <div class="product-small-img p-3 d-flex justify-content-center">
+                                <img src="./img/product-1.png" class="border xzoom-gallery" onclick="myFunction(this)">
+                                <img src="./img/product-2.png" class="border xzoom-gallery" onclick="myFunction(this)">
+                                <img src="./img/product-3.png" class="border xzoom-gallery" onclick="myFunction(this)">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 py-2">
+                    <div class="mt-5">
+                        <h4 class="pb-3">Lavender Printed Handloom Viscose- <br> Cotton Panjabi</h4>
+                        <h6 class="pb-3">Tk 1,362.79</h6>
+                        <div class="d-flex">
+                            <div class="quantity">
+                                <h6><small><strong>Quantity</strong></small></h6>
+                                <input class="me-2 text-center border border-1" type="number" placeholder="1">
+                            </div>
+                            <div class="size ms-2">
+                                <h6><small><strong>Size</strong></small></h6>
+                                <select class="form-select form-select-sm text-muted rounded-0"
+                                    aria-label=".form-select-sm example">
+                                    <option selected>Chose on option...</option>
+                                    <option value="1">34</option>
+                                    <option value="2">36</option>
+                                    <option value="3">38</option>
+                                    <option value="3">45</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="pt-5">
+                            <div class="stap-1">
+                                <button class="accordion-button border-top bg-white text-dark" type="button"
+                                    data-bs-toggle="offcanvas" data-bs-target="#offcanvasRightSize"
+                                    aria-controls="offcanvasRight" href="#flush-collapseOne"><small>Size
+                                        Guide</small></button>
+                                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRightSize"
+                                    aria-labelledby="offcanvasRightLabel">
+                                    <div class="offcanvas-header">
+                                        <h5 id="offcanvasRightLabel">SIZE CODE</h5>
+                                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="offcanvas-body">
+                                        <div class="d-flex py-2">
+                                            <div class="imgage" id="image">
+                                                <img src="./img/product-1.png" width="80px">
+                                            </div>
+                                            <div class="image-title">
+                                                <h6><small><strong>Lavender Printed Handloom Viscose-Cotton
+                                                            Panjabi</strong></small></h6>
+                                                <p class="text-muted"><small>As low as Tk 1,362.79</small></p>
+                                            </div>
+                                        </div>
+                                        <div class="text-center pt-1">
+                                            <p><small><strong>Size Chart</strong></small></p>
+                                            <hr>
+                                        </div>
+                                        <div class="chart pt-3">
+                                            <table class="table table-hover table-bordered border-dark">
+                                                <thead class="text-center">
+                                                    <tr>
+                                                        <th scope="col">Size</th>
+                                                        <th scope="col">Chart (In)</th>
+                                                        <th scope="col">Chart (Out)</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody class="text-center">
+                                                    <tr>
+                                                        <td>32</td>
+                                                        <td>35</td>
+                                                        <td>34</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>34</td>
+                                                        <td>37</td>
+                                                        <td>36</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>36</td>
+                                                        <td>39</td>
+                                                        <td>37</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>38</td>
+                                                        <td>41</td>
+                                                        <td>39</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>40</td>
+                                                        <td>43</td>
+                                                        <td>41</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>42</td>
+                                                        <td>45</td>
+                                                        <td>43</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>44</td>
+                                                        <td>47</td>
+                                                        <td>45</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="stap-2">
+                                <button class="accordion-button bg-white text-dark" type="button"
+                                    data-bs-toggle="offcanvas" data-bs-target="#offcanvasRightProduct"
+                                    aria-controls="offcanvasRight" href="#flush-collapseOne"><small>Product
+                                        Code</small></button>
+                                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRightProduct"
+                                    aria-labelledby="offcanvasRightLabel">
+                                    <div class="offcanvas-header">
+                                        <h5 id="offcanvasRightLabel">PRODUCT CODE</h5>
+                                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="offcanvas-body">
+                                        <h6>SKU#: 04Z235701014</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="stap-2">
+                                <button class="accordion-button bg-white text-dark" type="button"
+                                    data-bs-toggle="offcanvas" data-bs-target="#offcanvasRightDescription"
+                                    aria-controls="offcanvasRight" href="#flush-collapseOne"><small>Product
+                                        Description</small></button>
+                                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRightDescription"
+                                    aria-labelledby="offcanvasRightLabel">
+                                    <div class="offcanvas-header">
+                                        <h5 id="offcanvasRightLabel">PRODUCT DESCRIPTION</h5>
+                                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="offcanvas-body">
+                                        <div class="dis-title ms-4">
+                                            <h6 class="pb-2"><small>Lavender handloom viscose-cotton panjabi with white
+                                                    prints.
+                                                    Features in-seam side pockets.</small></h6>
+                                            <h4 class="fw-bold"><small>Specifications</small></h4>
+                                            <table class="table ">
+                                                <tr>
+                                                    <td class="fw-bold"><small>Fabric</small></td>
+                                                    <td><small>Viscott (Viscose & Cotton)</small></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="fw-bold"><small>Value <br> Addition</small></td>
+                                                    <td><small>Block Print</small></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="fw-bold"><small>Cut /Fit</small></td>
+                                                    <td><small>A-Line</small></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="fw-bold"><small>Collar/Neck</small></td>
+                                                    <td><small>Band Collar</small></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="fw-bold"><small>Side Cut</small></td>
+                                                    <td><small>Side Open</small></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="fw-bold"><small>Sleeve</small></td>
+                                                    <td><small>3-Quarter Sleeve</small></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="fw-bold"><small>Length</small></td>
+                                                    <td><small>Long</small></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="fw-bold"><small>Care</small></td>
+                                                    <td><small>Hand Wash With Mild Detergent In Cold Water</small></td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="stap-2">
+                                <button class="accordion-button bg-white text-dark" type="button"
+                                    data-bs-toggle="offcanvas" data-bs-target="#offcanvasRightReviews"
+                                    aria-controls="offcanvasRight"
+                                    href="#flush-collapseOne"><small>Reviews</small></button>
+                                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRightReviews"
+                                    aria-labelledby="offcanvasRightLabel">
+                                    <div class="offcanvas-header">
+                                        <h5 id="offcanvasRightLabel">Reviews</h5>
+                                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="offcanvas-body">
+                                        <h6><small>You can not add the review on this product as you have not purchased
+                                                this product yet.</small></h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="button text-center mt-5" id="button">
+                            <button type="button" class="btn rounded-0">ADD TO BAG</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function myFunction(smallImg) {
+            let fullImg = document.getElementById("imageBox");
+            fullImg.src = smallImg.src;           
+
+        }
+
+        $(function name() {
+            $(".xzoom, xzoom-gallery").xzoom({
+                zoomWidth:400,
+                tint: "#333",
+                Xoffset: 15,
+            });
+            
+        });
+
+    </script>
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

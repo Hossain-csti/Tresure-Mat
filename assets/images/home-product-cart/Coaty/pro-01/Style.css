@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
+
+h4 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h6 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+:root {
+    --orange: #ed341b;
+    --black: #000000;
+}
+
+.product-small-img img {
+    height: 100px;
+    cursor: pointer;
+    display: block;
+    margin-inline: 8px;
+    opacity: .6;
+
+}
+
+
+.product-small-img img:hover {
+    opacity: 1;
+}
+
+.img-container img {
+    width: 63%;
+}
+
+
+
+.dropdown-toggle {
+    cursor: pointer;
+}
+
+.quantity input {
+    width: 71px;
+    height: 31px;
+}
+
+.btn {
+    background-color: var(--black) !important;
+    border-color: var(--black) !important;
+    color: white !important;
+    width: 40vh;
+}
+
+.btn:hover{
+    background-color: var(--orange) !important;
+    border-color: var(--orange) !important;
+    letter-spacing: 2px;
+}
+.accordion-button::after {
+    transform: rotate(270deg) !important;
+}

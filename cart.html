@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Compiled css -->
+    <link rel="stylesheet" href="./assets/bootstrap-css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/index.css">
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Alameda</title>
+</head>
+
+<body>
+    <!-- navber section -->
+    <section class="navber" id="navber">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="nev-title text-center text-white">
+                    Free Shipping on Orders Over $50
+                </div>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+                    <div class="container">
+                        <a class="navbar-brand" href="#">Almeda</a>
+                        <div class="navbar-nav me-5 text-center">
+                            <a class="nav__link pb-2" href="./home.html">Home</a>
+                            <a class="nav__link pb-2" href="#">Product</a>
+                            <a class="nav__link pb-2" href="#">Home Decore</a>
+                            <a class="nav__link pb-2" href="./herstory.html">Herstory</a>
+                            <a class="nav__link pb-2" href="#">Customer Service</a>
+                        </div>
+                        <div class="nav-icon text-start">
+                            <a href="./login.html"><i class="fa-solid fa-user"></i></a>
+                            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </section>
+    <!-- navber section -->
+
+    <!-- cover -->
+    <section class="cover-image">
+        <div>
+            <img src="./assets/images/cover/chart-cover-img-01.jpg" class="pb-3" width="100%" alt="">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="cart text-white text-center d-flex align-items-center justify-content-center display-2">
+                        #CART</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- cover -->
+
+    <!-- table-section -->
+    <section class="store py-5">
+        <div class="container">
+            <div class="col-lg-12">
+                <div class="store-table">
+                    <table class="table table-borderless">
+                        <tr class="border-top border-bottom text-center">
+                            <th scope="row">REMOVE</th>
+                            <th scope="row">IMAGE</th>
+                            <th scope="row">PRODUCT</th>
+                            <th scope="row">PRICE</th>
+                            <th scope="row">QUANTITY</th>
+                            <th scope="row">SUBTOTAL</th>
+                        </tr>
+
+                        <tr class="table table-borderless text-center border-0">
+                            <td class="align-middle"><button type="button" class="btn-close"
+                                    aria-label="Close"></button>
+                            </td>
+                            <td class="align-middle"><img class="rounded-1"
+                                    src="./assets/images/product/cart-product-img-01.jpg" width="60px"
+                                    alt=""></td>
+                            <td class="align-middle">Carton Astronaut T-shirt</td>
+                            <td class="align-middle">$118.19</td>
+                            <td class="value-box align-middle"><input type="number" value="1"></td>
+                            <td class="align-middle">$118.19</td>
+                        </tr>
+
+                        <tr class="table table-borderless text-center border-0">
+                            <td class="align-middle"><button type="button" class="btn-close"
+                                    aria-label="Close"></button>
+                            </td>
+                            <td class="align-middle"><img class="rounded-1"
+                                    src="./assets/images/product/cart-product-img-02.jpg" width="60px"
+                                    alt=""></td>
+                            <td class="align-middle">Asos Desing T-shirt</td>
+                            <td class="align-middle">$118.19</td>
+                            <td class="value-box align-middle"><input type="number" value="1"></td>
+                            <td class="align-middle">$118.19</td>
+                        </tr>
+
+                        <tr class="table table-borderless text-center border-0">
+                            <td class="align-middle"><button type="button" class="btn-close"
+                                    aria-label="Close"></button>
+                            </td>
+                            <td class="align-middle"><img class="rounded-1"
+                                    src="./assets/images/product/cart-product-img-03.jpg" width="60px"
+                                    alt=""></td>
+                            <td class="align-middle">mini dress in white T-shirt</td>
+                            <td class="align-middle">$118.19</td>
+                            <td class="value-box align-middle"><input type="number" value="1"></td>
+                            <td class="align-middle">$118.19</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- table-section -->
+
+    <!-- copon and chart total -->
+    <section class="chart" id="chart">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6 mb-4 mt-mb-0">
+                    <div class="coupon">
+                        <h6>Apply Coupon</h6>
+                    </div>
+                    <form class="d-flex">
+                        <input class="form-control rounded-0 me-2" type="search" placeholder="Search"
+                            aria-label="Search">
+                        <button class="btn btn-success apply-coupon rounded-0" type="submit">Search</button>
+                    </form>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 pb-5">
+                    <div class="card bg-light card-border rounded-0">
+                        <h6>Chart Total</h6>
+                        <table class="table table-bordered">
+                            <tbody>
+                                <tr>
+                                    <td>Cart Subtotal</td>
+                                    <td>$ 335.00</td>
+                                </tr>
+                                <tr>
+                                    <td>Shipping</td>
+                                    <td>Free</td>
+                                </tr>
+                                <tr>
+                                    <td>Total</td>
+                                    <td>$ 335.00</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <!-- Button trigger modal -->
+                        <button type="button" class="apply-coupon btn btn-success w-50 rounded-0" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            Process to checkout
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content-secondary rounded-0 border-0">
+                                    <div class="modal-body">
+                                        <div class="alert alert-secondary rounded-0" role="alert">
+                                            <h4 class="alert-heading text-center fs-5 pt-4 pb-4">
+                                                Your Order has been received</h4>
+                                            <div class="purc-icon text-center text-white d-flex align-items-center 
+                                            justify-content-center pb-2"><i class="fa-solid fa-check"></i>
+                                            </div>
+                                            <div class="model-title">
+                                                <h5 class="text-center">Thank you for your purchese !</h5>
+                                                <h6 class="text-center">Your Order ID:1234667800</h6>
+                                                <h6 class="text-center">You will receive an order confirmation email
+                                                    with details of your
+                                                    order.</h6>
+                                            </div>
+                                            <div class="text-center py-4">
+                                                <button type="button" class="btn btn-success rounded-0"><small>Confirm
+                                                    Order</small></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- copon and chart total -->
+
+    <!-- footer section -->
+    <section class="footer py-5" id="footer">
+        <div class="container">
+            <hr>
+            <footer class="py-2">
+                <div class="row">
+                    <div class="col-sm-12 col-md-3 col-lg-3 mb-4">
+                        <h6>CONTACT INFO</h6>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mt-3"><a href="#" class="nav-link p-0 text-muted">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <small> 123 London Bridge Stree,London</small></a></li>
+                            <li class="nav-item mt-2"><a href="#" class="nav-link p-0 text-muted">
+                                    <i class="fa-solid fa-envelope"></i>
+                                    <small> support@monsa.com</small></a></li>
+                            <li class="nav-item mt-2"><a href="#" class="nav-link p-0 text-muted">
+                                    <i class="fa-solid fa-phone"></i>
+                                    <small> (+012) 3456 789</small></a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-sm-12 col-md-3 col-lg-3 pb-4 mt-mb-0">
+                        <h6>COMPANY</h6>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mt-2"><a href="#" class="nav-link p-0 text-muted">
+                                    <small>Home</small></a></li>
+                            <li class="nav-item mt-2"><a href="#" class="nav-link p-0 text-muted">
+                                    <small>About Us</small></a></li>
+                            <li class="nav-item mt-2"><a href="#" class="nav-link p-0 text-muted">
+                                    <small>Work With US</small></a></li>
+                            <li class="nav-item mt-2"><a href="#" class="nav-link p-0 text-muted">
+                                    <small>Our Blog</small></a></li>
+                            <li class="nav-item mt-2"><a href="#" class="nav-link p-0 text-muted">
+                                    <small>Terms & Condition</small></a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-sm-12 col-md-3 col-lg-3 pb-4 mt-mb-0">
+                        <h6>USEFUL LINK</h6>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mt-2"><a href="#" class="nav-link p-0 text-muted">
+                                    <small>Help</small></a></li>
+                            <li class="nav-item mt-2"><a href="#" class="nav-link p-0 text-muted">
+                                    <small>Track My Order</small></a></li>
+                            <li class="nav-item mt-2"><a href="#" class="nav-link p-0 text-muted">
+                                    <small>Men</small></a></li>
+                            <li class="nav-item mt-2"><a href="#" class="nav-link p-0 text-muted">
+                                    <small>Women</small></a></li>
+                            <li class="nav-item mt-2"><a href="#" class="nav-link p-0 text-muted">
+                                    <small>Shoes</small></a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-sm-12 col-md-3 col-lg-3 mt-mb-0">
+                        <h6>INSTAGRAM</h6>
+                        <div class="col-sm-12 col-md-4 col-lg-4 d-flex justify-content-start pt-4 pb-1">
+                            <img class="img-thumbnail me-1 rounded-0" src="./assets/images/footer-image/img-01.jpg"
+                                width="100" alt="">
+                            <img class="img-thumbnail me-1 rounded-0" src="./assets/images/footer-image/img-02.jpg"
+                                width="100" alt="">
+                            <img class="img-thumbnail me-1 rounded-0" src="./assets/images/footer-image/img-03.jpg"
+                                width="100" alt="">
+                        </div>
+                        <div class="col-sm-12 col-md-4 col-lg-4 d-flex justify-content-start">
+                            <img class="img-thumbnail me-1 rounded-0" src="./assets/images/footer-image/img-04.jpg"
+                                width="100" alt="">
+                            <img class="img-thumbnail me-1 rounded-0" src="./assets/images/footer-image/img-05.jpg"
+                                width="100" alt="">
+                            <img class="img-thumbnail me-1 rounded-0" src="./assets/images/footer-image/img-06.jpg"
+                                width="100" alt="">
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-column flex-sm-row justify-content-center py-2 border-top">
+                        <p class="text-center"><small>© 2022 Company, Inc. All rights reserved.</small></p>
+                    </div>
+            </footer>
+        </div>
+    </section>
+    <!-- footer section -->
+
+    <script src="./assets/java script/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
