@@ -29,34 +29,6 @@ a {
 
 }
 
-.nav__link {
-    position: relative;
-    transition: all 0.4s;
-}
-
-.nav__link:hover,
-.nav__link:focus {
-    color: #000000;
-}
-
-.nav__link::after {
-    content: '';
-    height: 2px;
-    width: 100%;
-    background: #198754;
-    display: block;
-    position: absolute;
-    left: 0;
-    bottom: -1px;
-    opacity: 0;
-    transition: all 0.2s;
-}
-
-.nav__link:hover::after,
-.nav__link:focus::after {
-    opacity: 1;
-}
-
 .nav-icon i {
     color: #000000;
 }
@@ -65,51 +37,55 @@ a {
     color: #198754;
     transition: all 0.5s;
 }
+
 /* navber section */
 
 /* trending-image */
-.trending-image img{
+.trending-image img {
     transition: transform 0.5s;
 }
 
-.trending-image img:hover{
+.trending-image img:hover {
     transform: translateY(-7px);
 }
+
 /* trending-image */
 
 
 /* blog-eid-offer */
-.cover-image img{
+.cover-image img {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.Aarong__eid__adha{
+.Aarong__eid__adha {
     margin-top: -50px;
     left: 0;
     right: 0;
 }
 
-.Aarong__eid__adha span{
+.Aarong__eid__adha span {
     width: 67%;
 }
 
-.eid-img-01 p{
+.eid-img-01 p {
     width: 81%;
     text-align: initial;
     margin-left: 110px;
     font-size: 12px;
 }
+
 /* blog-eid-offer */
 
 
 
 /* herstory */
-.back-color{
+.back-color {
     background: #871D4E;
 }
+
 /* herstory */
 
 /* login-and-sign-out */
@@ -123,14 +99,15 @@ a {
     background-size: cover;
 }
 
-.overlay{
+.overlay {
     padding: 60px;
     min-height: 80vh;
 }
+
 /* parallax */
 
-.card{
-    background: rgb(238,238,238);
+.card {
+    background: rgb(238, 238, 238);
     margin: auto;
     left: 0;
     right: 0;
@@ -138,17 +115,17 @@ a {
     bottom: 0;
 }
 
-.icon-link button{
+.icon-link button {
     margin: 0.5vw;
 }
 
-.icon-link button{
+.icon-link button {
     border-color: rgb(183, 183, 183) !important;
-    background-color: rgb(238,238,238);
+    background-color: rgb(238, 238, 238);
     color: black !important;
 }
 
-.icon-link button:hover{
+.icon-link button:hover {
     border-color: rgb(183, 183, 183) !important;
     background-color: rgb(255, 255, 255) !important;
     color: black !important;
@@ -159,9 +136,10 @@ a {
 
 
 /* cart-page */
-.cart{
+.cart {
     margin-top: -19rem;
 }
+
 /* cover image */
 
 /* table store */
@@ -194,7 +172,7 @@ a {
 /* apply coupon */
 
 /* model */
-.purc-icon i{
+.purc-icon i {
     font-size: 30px;
     border: 2px solid #198754;
     background-color: #198754;
@@ -206,12 +184,89 @@ a {
     right: 0;
     left: 0;
 
-
 }
-.model-title h5{
+
+.model-title h5 {
     font-size: 14px;
 }
 
-.model-title h6{
+.model-title h6 {
     font-size: 12px;
 }
+
+/* model */
+
+
+/* contact_service */
+.service_image {
+    background-image: url("./images/cover/customer-service-cover-img.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 300px;
+}
+
+.btn_group_vertical {
+    line-height: 45px;
+}
+
+.btn_group_vertical li {
+    transition: transform 0.5s;
+}
+
+.btn_group_vertical li:hover {
+    transform: translate(7px);
+}
+
+.telephone-img {
+    border: 1px solid rgb(221, 212, 212);
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+
+}
+
+.telephone-img img {
+    width: 17px;
+    margin-top: 2px;
+    margin-left: 5px;
+
+}
+
+.md-line {
+    border-right: 1px solid rgb(221, 212, 212);
+    height: 130px;
+}
+
+.email-img {
+    border: 1px solid rgb(221, 212, 212);
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+
+}
+
+.email-img img {
+    width: 17px;
+    margin-top: 2px;
+    margin-left: 6px;
+
+}
+
+.form-select {
+    height: 40px;
+    font-size: 13px;
+}
+
+.form-control {
+    height: 40px;
+    font-size: 13px;
+}
+
+/* contact_service */
+
+/* billing & payment */
+.accordion-body p{
+    font-size: 13px;
+
+}
+/* billing & payment */
